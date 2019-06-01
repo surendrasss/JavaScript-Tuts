@@ -76,3 +76,8 @@ for (i = 0;
     }
 
 console.log('the total is ' + total)
+
+
+console.log('the mean is ' + (total/age.length))
+
+
