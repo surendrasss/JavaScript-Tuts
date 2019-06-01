@@ -1,0 +1,62 @@
+// initialiser 
+// condition : when your loop should end
+// incrementor or decrementor
+
+for (let i = 0; i <= 100; i++) {
+    console.log(i);
+    
+}
+
+console.log('-----------------------')
+
+for (var j = 0; 
+    j <= 20;
+    j = j+2) {
+        console.log(j)
+    } 
+
+console.log('-----------------------')
+
+// Let's add a number
+
+
+var sum = 0;
+
+for (let num = 1; num < 11; num++) {
+    console.log(num);
+    sum += num;
+}
+
+console.log("the total is " + sum)
+
+console.log('-----------------------')
+
+// dynamic loop
+
+var list = [1,2,3,5,6,7];
+
+for (let i = 0; i < list.length; i++) {
+    console.log(list[i]);
+    
+}
+
+var fruits = ['apple', 'banana', 'cherry', 'Dates', 'Eggfruit', 'guava']
+for (var i = 0;
+    i<fruits.length;
+    i++){
+        console.log(fruits[i])
+    }
+
+console.log('-----------------------')
+console.log()
+
+
+var data = {
+    name : 'Nilesh',
+    age : 24,
+    height : 180
+}
+
+for (elem in data){
+    console.log(elem + ' : ' + data[elem])
+}
