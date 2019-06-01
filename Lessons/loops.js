@@ -60,3 +60,19 @@ var data = {
 for (elem in data){
     console.log(elem + ' : ' + data[elem])
 }
+
+
+var age = [28, 28, 30, 21, 23,25, 37, 38, 55];
+
+var total = 0;
+
+for (i = 0; 
+    i<age.length;
+    i++){
+        
+        console.log(age[i])
+        total += age[i]
+        
+    }
+
+console.log('the total is ' + total)
